@@ -3,31 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Unlock your iPhone</title>
+    <script
+      src="https://kit.fontawesome.com/7290f27402.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Order History</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-list-ul"></i> Order History</a></li>
+                <li class="last"><a href="#"><i class="far fa-comment"></i> Contact Us</a></li>
             </ul>
             <ul>
-                <li><a href="#">Register</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="#"><i class="fas fa-reply"></i> Register</a></li>
+                <li class="last"><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <form action="">
+        <form action="get">
             <input type="text" placeholder="Enter IMEI or Serial Number">
             <select name="iphone-service" id="">
                 <option value="">Please Choose Checker</option>
             </select>
-            <button type="submit">Submit :)</button>
+            <button type="submit">Submit <i class="far fa-smile-beam"></i></button>
         </form>
         <p>Shows the Model, Capacity, Color and other info for Apple Devices</p>
     </main>
