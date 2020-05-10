@@ -1,7 +1,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
-    background: rgba(0, 212, 255, 1);
+    /* background: rgba(0, 212, 255, 1); */
+    background: linear-gradient(170deg, #2196f0 0%,#9b22db 100%)
 }
 
 * {
@@ -60,6 +61,7 @@ nav i {
     text-align: center;
     padding: 4em 0 2em 0;
     font-weight: 600;
+    color: white;
 }
 
 form {
@@ -119,7 +121,7 @@ footer li {
     list-style-position: inside;
     padding-left: 1.3em;
     font-weight: 600;
-    line-height: 2em;
+    line-height: 2.2em;
 }
 
 footer li::before {
@@ -128,11 +130,12 @@ footer li::before {
     display: inline-block;
     margin-left: -1.3em;
     width: 1.3em;
-    color: #090979;
+    color: white;
 }
 
 footer a {
     color: #090979;
+    color: white;
     text-decoration: none;
     margin-bottom: 1em;
 }
