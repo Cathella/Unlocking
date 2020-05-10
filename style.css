@@ -47,14 +47,19 @@ nav a {
     color: #666666;
 }
 
-nav a i {
+nav i {
     padding-right: 5px;
+    color: #090979;
 }
 
 .content {
     margin: 2em 4em;
-    /* background: #f7faf9; */
-    /* padding: 2em; */
+}
+
+.desc {
+    text-align: center;
+    padding: 4em 0 2em 0;
+    font-weight: 600;
 }
 
 form {
@@ -62,9 +67,7 @@ form {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    /* border: 1px solid green; */
     font-family: 'Open Sans', sans-serif;
-    /* padding: 1em 0; */
     font-size: .8em;
 }
 
@@ -104,4 +107,32 @@ button i {
 
 footer ul {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+footer li {
+    font-size: .9em;
+    width: 45%;
+    list-style-position: inside;
+    padding-left: 1.3em;
+    font-weight: 600;
+    line-height: 2em;
+}
+
+footer li::before {
+    content: "\f0a9";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+    color: #090979;
+}
+
+footer a {
+    color: #090979;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
