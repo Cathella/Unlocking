@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     height: 100vh;
     /* background: rgba(0, 212, 255, 1); */
     background: linear-gradient(170deg, #2196f0 0%,#9b22db 100%)
@@ -76,7 +76,7 @@ form {
 form input,
 form select,
 form button {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 600;
     background: rgba(255, 255, 255, .8);
     border: none;
