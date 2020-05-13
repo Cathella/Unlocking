@@ -21,13 +21,13 @@
             </ul>
             <ul>
                 <li><a href="#"><i class="fas fa-reply"></i> Register</a></li>
-                <li class="last"><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                <li class="last button-modal"><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="content">
-            <p class="desc">Shows the Model, Capacity, Color and other info for Apple Devices</p>
+            <p class="desc">For the Best Unlocking Services for Apple Devices</p>
             <form action="#">
                 <input type="text" placeholder="Enter IMEI or Serial Number">
                 <select name="iphone-service" id="">
@@ -37,6 +37,19 @@
             </form>
         </div>
     </main>
+    <!-- modal -->
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="close-modal">
+                <svg viewBox="0 0 20 20">
+                    <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                </svg>
+            </a><!-- close modal -->
+            <div class="modal-content">
+                <h3>Some content here</h3>
+            </div><!-- content -->
+        </div><!-- modal -->
+    </div><!-- overlay -->
     <footer>
         <ul class="content">
             <li><a href="#">Scammers will be banned and IMEI's blacklisted</a></li>
@@ -47,6 +60,19 @@
             <li><a href="#">Service Samples are available in APi Page after Login</a></li>
             <li><a href="#">API & PRO Tools available only for Premium Users</a></li>
         </ul>
+        <div class="copyright">
+            <p>&copy; 2020. All Rights Reserved.</p>
+        </div>
     </footer>
+    <script>
+        var elements = $('.modal-overlay, .modal');
+        $('.button-modal').click(function(){
+            elements.addClass('active');
+        });
+
+        $('.close-modal').click(function(){
+            elements.removeClass('active');
+        });
+    </script>
 </body>
 </html>
