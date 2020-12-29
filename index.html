@@ -1,78 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Unlock your iPhone</title>
-    <script
-      src="https://kit.fontawesome.com/7290f27402.js"
-      crossorigin="anonymous"
-    ></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Unlock your iPhone</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#"><i class="fas fa-home"></i></a></li>
-                <li><a href="#"><i class="fas fa-list-ul"></i> Order History</a></li>
-                <li class="last"><a href="#"><i class="far fa-comment"></i> Contact Us</a></li>
-            </ul>
-            <ul>
-                <li><a href="#"><i class="fas fa-reply"></i> Register</a></li>
-                <li class="last button-modal"><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="content">
-            <p class="desc">For the Best Unlocking Services for Apple Devices</p>
-            <form action="#">
-                <input type="text" placeholder="Enter IMEI or Serial Number">
-                <select name="iphone-service" id="">
-                    <option value="">Please Choose Checker</option>
-                </select>
-                <button type="submit">Submit <i class="far fa-smile-beam"></i></button>
-            </form>
-        </div>
-    </main>
-    <!-- modal -->
-    <div class="modal-overlay">
-        <div class="modal">
-            <a class="close-modal">
-                <svg viewBox="0 0 20 20">
-                    <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
-                </svg>
-            </a><!-- close modal -->
-            <div class="modal-content">
-                <h3>Some content here</h3>
-            </div><!-- content -->
-        </div><!-- modal -->
-    </div><!-- overlay -->
-    <footer>
-        <ul class="content">
-            <li><a href="#">Scammers will be banned and IMEI's blacklisted</a></li>
-            <li><a href="#">Share your experience on customer reviews</a></li>
-            <li><a href="#">Group pricing of all our services</a></li>
-            <li><a href="#">For problems regarding site or payments use contact us</a></li>
-            <li><a href="#">Free services limited to 5 IMEI checks per day</a></li>
-            <li><a href="#">Service Samples are available in APi Page after Login</a></li>
-            <li><a href="#">API & PRO Tools available only for Premium Users</a></li>
-        </ul>
-        <div class="copyright">
-            <p>&copy; 2020. All Rights Reserved.</p>
-        </div>
-    </footer>
-    <script>
-        var elements = $('.modal-overlay, .modal');
-        $('.button-modal').click(function(){
-            elements.addClass('active');
-        });
+  <header>
+    <nav class="container d-flex justify-content-between align-items-center py-4">
+      <a href="#" class="logo font-weight-bold">iPhoneUnlockUg</a>
+      <ul class="d-flex">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Buy Chips</a></li>
+        <li><a href="#">Network Unlocks</a></li>
+      </ul>
+      <ul>
+        <a href="#" class="">Sign In</a>
+        <a href="#" class="ml-4 border-link blue-border blue-text font-weight-bold">Sign Up</a>
+      </ul>
+    </nav>
+  </header>
 
-        $('.close-modal').click(function(){
-            elements.removeClass('active');
-        });
-    </script>
+  <main>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-5">
+          <h1 class="font-weight-bold mt-5 pt-5 text-white">Unlock your<br>iPhone Today.</h1>
+          <div class="mt-5">
+            <p class="font-size-normal pb-5 text-white" style="line-height: 2em">Best Unlocking services for Apple Devices. <br>Easily unlock your Network locked iPhone in a short period of time.</p>
+          </div>
+          <div class="mt-3 mb-5 pb-5">
+            <a href="#" class="border-link text-white">Get started</a>
+          </div>
+        </div>
+        <div class="col-md-7 pt-2">
+          <img src="img/drib8.webp" alt="" class="img-fluid mt-5">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="">
+    <ul class="py-5 container d-flex justify-content-between flex-wrap">
+      <li><a href="#">Scammers will be banned and IMEI's blacklisted</a></li>
+      <li><a href="#">Share your experience on customer reviews</a></li>
+      <li><a href="#">Group pricing of all our services</a></li>
+      <li><a href="#">For problems regarding site or payments. Contact us</a></li>
+      <li><a href="#">Free services limited to 5 IMEI checks per day</a></li>
+      <li><a href="#">Service Samples are available in API Page after Login</a></li>
+    </ul>
+    <div class="copyright text-center border-top pt-3">
+      <p>&copy; 2020. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script
+    src="https://kit.fontawesome.com/7290f27402.js"
+    crossorigin="anonymous"
+  ></script>
 </body>
 </html>
