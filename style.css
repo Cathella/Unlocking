@@ -22,7 +22,12 @@ nav a {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3.8em;
+  letter-spacing: -2.5px;
+}
+
+h2 {
+  font-size: 2.6em;
 }
 
 .font-size-normal {
@@ -50,6 +55,10 @@ main {
 
 .blue-text {
   color: #2196f0;
+}
+
+.bg-orange {
+  background-color: #e28117;
 }
 
 footer ul {
